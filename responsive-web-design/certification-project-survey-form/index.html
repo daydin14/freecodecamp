@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <h1 id="title">Survey</h1>
+  <p id="description">Description</p>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Enter Your Name:
+        <input type="text" id="name" required placeholder="David Aydin"/>
+      </label>
+
+      <label for="email" id="email-label">Enter Your Email:
+        <input type="email" id="email" required placeholder="david.aydin6@gmail.com"/>
+      </label>
+
+      <label for="number" id="number-label">Enter a Number:
+        <input type="number" id="number" min="0" max="100" placeholder="14"/>
+      </label>
+
+      <label for="dropdown">
+        <select id="dropdown">
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+      </label>
+
+      <label for="name">
+        <input type="radio" value="Employed" name="name"/>Employed
+      </label>
+
+      <label for="name">
+        <input type="radio" value="Unemployed" name="name"/>Unemployed
+      </label>
+
+      <label for="">
+        <input type="checkbox" value="one"/>Checkbox 1
+      </label>
+
+      <label for="">
+        <input type="checkbox" value="two"/>Checkbox 2
+      </label>
+
+      <label for="">
+        <textarea></textarea>
+      </label>
+
+      <input type="submit" id="submit"/>
+    </fieldset>
+  </form>
+</body>
+</html>
